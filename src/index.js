@@ -1,5 +1,5 @@
-import 'config/ReactotronConfig';
-import 'config/DevToolsConfig';
+import './config/ReactotronConfig';
+import './config/DevToolsConfig';
 
 import React, { Component } from 'react';
 import {
@@ -77,12 +77,12 @@ export default class App extends Component {
     return (
       <View style={styles.container}>
         <View style={styles.header}>
-          <Text style={styles.headerTitle}>
-GoNative App
-          </Text>
+          <Text style={styles.headerTitle}>GoNative App</Text>
         </View>
         <ScrollView>
-          {posts.map(post => <Post key={post.id} data={post} />)}
+          {posts.map(post => (
+            <Post key={post.id} data={post} />
+          ))}
         </ScrollView>
       </View>
     );

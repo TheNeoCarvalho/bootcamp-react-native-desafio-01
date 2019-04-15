@@ -1,4 +1,4 @@
-package com.desafio01;
+package com.gonativedesafio01;
 
 import android.app.Application;
 

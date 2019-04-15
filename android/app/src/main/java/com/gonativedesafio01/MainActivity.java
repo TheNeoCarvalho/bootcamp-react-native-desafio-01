@@ -1,4 +1,4 @@
-package com.desafio01;
+package com.gonativedesafio01;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "desafio01";
+        return "GoNativeDesafio01";
     }
 }
